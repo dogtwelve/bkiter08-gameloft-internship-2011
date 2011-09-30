@@ -1,6 +1,6 @@
 #ifndef __LIST_H__
 #define __LIST_H__
-
+//hao edit
 #ifndef NULL
 #define NULL 0
 #endif
