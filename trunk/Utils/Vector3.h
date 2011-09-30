@@ -17,6 +17,9 @@ public:
 	static float DotProduct(Vector3 & a, Vector3 & b);
 	static Vector3 CrossProduct(Vector3 & a, Vector3 & b);
 
+	float Length();
+	void Normalize();
+
 	virtual ~Vector3(void);
 
 private:
