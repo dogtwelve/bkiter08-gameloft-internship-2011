@@ -2,7 +2,7 @@
 <VisualStudioProject
 	ProjectType="Visual C++"
 	Version="9.00"
-	Name="Utils"
+	Name="Framework"
 	ProjectGUID="{AB9A8156-5EFD-41AE-A4FC-8D7B3E33B8B7}"
 	RootNamespace="Utils"
 	TargetFrameworkVersion="196613"
@@ -155,38 +155,64 @@
 			Filter="cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx"
 			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}"
 			>
-			<File
-				RelativePath=".\Sources\Image.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Sources\Matrix.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Sources\MD2Model.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Sources\Model.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Sources\Utils.cpp"
-				>
-			</File>
-			<File
-				RelativePath=".\Sources\Vector3.cpp"
-				>
-			</File>
 		</Filter>
 		<Filter
 			Name="Header Files"
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}"
 			>
+			<Filter
+				Name="Resource Management"
+				>
+				<File
+					RelativePath=".\Sources\Image.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Header\Image.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Sources\MD2Model.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Header\MD2Model.h"
+					>
+				</File>
+				<File
+					RelativePath=".\Sources\Model.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Header\Model.h"
+					>
+				</File>
+			</Filter>
+			<Filter
+				Name="Utils"
+				>
+				<File
+					RelativePath=".\Sources\Utils.cpp"
+					>
+				</File>
+				<File
+					RelativePath=".\Header\Utils.h"
+					>
+				</File>
+			</Filter>
+		</Filter>
+		<Filter
+			Name="Resource Files"
+			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
+			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
+			>
+		</Filter>
+		<Filter
+			Name="Math"
+			>
 			<File
-				RelativePath=".\Header\Image.h"
+				RelativePath=".\Sources\Matrix.cpp"
 				>
 			</File>
 			<File
@@ -194,27 +220,13 @@
 				>
 			</File>
 			<File
-				RelativePath=".\Header\MD2Model.h"
-				>
-			</File>
-			<File
-				RelativePath=".\Header\Model.h"
-				>
-			</File>
-			<File
-				RelativePath=".\Header\Utils.h"
+				RelativePath=".\Sources\Vector3.cpp"
 				>
 			</File>
 			<File
 				RelativePath=".\Header\Vector3.h"
 				>
 			</File>
-		</Filter>
-		<Filter
-			Name="Resource Files"
-			Filter="rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav"
-			UniqueIdentifier="{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}"
-			>
 		</Filter>
 	</Files>
 	<Globals>
