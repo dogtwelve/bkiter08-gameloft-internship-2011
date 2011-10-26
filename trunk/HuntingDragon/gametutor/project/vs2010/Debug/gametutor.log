@@ -1,0 +1,70 @@
+﻿Build started 10/25/2011 5:20:34 PM.
+     1>Project "J:\Projects\HuntingDragon\gametutor\project\vs2010\gametutor.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\gametutor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../header/ /I../../esUtil/Include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\source\CCoordinateConverter.cpp ..\..\source\CImage.cpp ..\..\source\CModel.cpp ..\..\source\CText2D.cpp
+         CCoordinateConverter.cpp
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(331) "WriteInt64 is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(335) "WriteUInt64 is not implemented"
+     1>j:\projects\huntingdragon\gametutor\header\cimage.h(48): warning C4114: same type qualifier used more than once
+         Generating Code...
+         Compiling...
+         CText2D.cpp
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(331) "WriteInt64 is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(335) "WriteUInt64 is not implemented"
+     1>j:\projects\huntingdragon\gametutor\header\cimage.h(48): warning C4114: same type qualifier used more than once
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(88) "DrawRect is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(93) "DrawRect is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(98) "DrawLine is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(103) "DrawLine is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(108) "DrawTriangle is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(113) "DrawTriangle is not implemented"
+     1>j:\projects\huntingdragon\gametutor\source\ctext2d.cpp(32): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+     1>j:\projects\huntingdragon\gametutor\source\ctext2d.cpp(39): warning C4018: '<' : signed/unsigned mismatch
+         CModel.cpp
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(331) "WriteInt64 is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(335) "WriteUInt64 is not implemented"
+     1>j:\projects\huntingdragon\gametutor\header\cimage.h(48): warning C4114: same type qualifier used more than once
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(88) "DrawRect is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(93) "DrawRect is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(98) "DrawLine is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(103) "DrawLine is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(108) "DrawTriangle is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(113) "DrawTriangle is not implemented"
+     1>j:\projects\huntingdragon\gametutor\source\cmodel.cpp(35): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen'
+         Generating Code...
+     1>j:\projects\huntingdragon\gametutor\source\cmodel.cpp(154): warning C4700: uninitialized local variable 'h' used
+     1>j:\projects\huntingdragon\gametutor\source\cmodel.cpp(154): warning C4700: uninitialized local variable 'w' used
+         Skipping... (no relevant changes detected)
+         CImage.cpp
+       Lib:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\gametutor.lib" esUtil_d.lib libEGL.lib libGLESv2.lib /LIBPATH:../../esUtil/Lib /NOLOGO Debug\CCharMap.obj
+         Debug\CControllerEventManager.obj
+         Debug\CCoordinateConverter.obj
+         Debug\CDevice.obj
+         Debug\CFpsController.obj
+         Debug\CGame.obj
+         Debug\CGraphics3D.obj
+         Debug\CImage.obj
+         Debug\CModel.obj
+         Debug\CStateManagement.obj
+         Debug\CText2D.obj
+         Debug\CViewController.obj
+         Debug\CVSView.obj
+         Debug\LoadShader.obj
+         Debug\Matrix.obj
+         Debug\Vector3.obj
+     1>libGLESv2.lib(libGLESv2.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in libEGL.lib(libEGL.dll); second definition ignored
+     1>libGLESv2.lib(libGLESv2.dll) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+         gametutor.vcxproj -> J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\gametutor.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\gametutor.unsuccessfulbuild".
+         Touching "Debug\gametutor.lastbuildstate".
+     1>Done Building Project "J:\Projects\HuntingDragon\gametutor\project\vs2010\gametutor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.36

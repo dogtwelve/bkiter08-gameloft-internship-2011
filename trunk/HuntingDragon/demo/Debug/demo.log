@@ -1,0 +1,34 @@
+﻿Build started 10/25/2011 6:21:45 PM.
+     1>Project "J:\Projects\HuntingDragon\demo\demo.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\demo.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../gametutor/header/ /I../gametutor/esUtil/Include /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CStateLogo.cpp
+         CStateLogo.cpp
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(331) "WriteInt64 is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\stream_filewin32.h(335) "WriteUInt64 is not implemented"
+     1>j:\projects\huntingdragon\gametutor\header\cimage.h(48): warning C4114: same type qualifier used more than once
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(88) "DrawRect is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(93) "DrawRect is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(98) "DrawLine is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(103) "DrawLine is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(108) "DrawTriangle is not implemented"
+         [TODO]:j:\projects\huntingdragon\gametutor\header\cgraphics2d.h(113) "DrawTriangle is not implemented"
+     1>j:\projects\huntingdragon\demo\cstatelogo.cpp(40): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         D:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\demo.exe" /NOLOGO /LIBPATH:../gametutor/libs/ogl/ /LIBPATH:../gametutor/project/vs2010/Debug /LIBPATH:../gametutor/esUtil/Lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\demo.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\demo.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\demo.lib" /MACHINE:X86 Debug\CExample.obj
+         Debug\CStateLogo.obj
+         Debug\CStatePoster.obj
+         Debug\main.obj
+         LINK : J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\demo.exe not found or not built by the last incremental link; performing full link
+         demo.vcxproj -> J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\demo.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"J:\Projects\HuntingDragon\gametutor\project\vs2010\Debug\demo.exe;#1" /manifest Debug\demo.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\demo.unsuccessfulbuild".
+         Touching "Debug\demo.lastbuildstate".
+     1>Done Building Project "J:\Projects\HuntingDragon\demo\demo.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.23
