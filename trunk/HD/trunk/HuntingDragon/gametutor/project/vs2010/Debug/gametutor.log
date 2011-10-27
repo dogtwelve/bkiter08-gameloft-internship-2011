@@ -1,0 +1,17 @@
+﻿Build started 10/27/2011 8:27:51 PM.
+     1>Project "J:\TANCONGProj\HD\trunk\HuntingDragon\gametutor\project\vs2010\gametutor.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\gametutor.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Lib:
+         All outputs are up-to-date.
+         gametutor.vcxproj -> J:\TANCONGProj\HD\trunk\HuntingDragon\gametutor\project\vs2010\Debug\gametutor.lib
+       FinalizeBuildStatus:
+         Deleting file "Debug\gametutor.unsuccessfulbuild".
+         Touching "Debug\gametutor.lastbuildstate".
+     1>Done Building Project "J:\TANCONGProj\HD\trunk\HuntingDragon\gametutor\project\vs2010\gametutor.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12
